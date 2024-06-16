@@ -4,11 +4,14 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "preview": "vite preview"
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "devDependencies": {
-      "vite": "^5.0.8"
+        "vite": "^5.0.8"
+    },
+    "dependencies": {
+        "@discord/embedded-app-sdk": "^1.2.0"
     }
-  }
+}
